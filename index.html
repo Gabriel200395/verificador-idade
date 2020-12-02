@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Segundo-Projeto</title>
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <h1 class="title">Verificador de Idade</h1>
+      </header>
+      <section class="home">
+        <div>
+          <p>Ano de nascimento:<input type="textano" id="textano" /></p>
+          <p>
+            Sexo:
+            <input type="radio" name="radsex" id="masc" checked />
+            <label for="masc">Masculino</label>
+            <input type="radio" name="radsex" id="fem" />
+            <label for="fem">Femenino</label>
+          </p>
+          <p>
+            <input type="button" value="verificar" onclick="verificar()" />
+          </p>
+        </div>
+        <div id="res">Prenchar os dados acima para ver os resultados!</div>
+      </section>
+      <footer class="rodape">@Gabriel Souza - Developer - Web</footer>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
