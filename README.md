@@ -3,7 +3,7 @@
    <body>
   <h1 align="center">Verificador Idade</h1>
 <h4 align="center">
-  <img src="./public/images/idade.gif"  /><br>
+  <img src="./public/Images/idade.gif"  /><br>
 </h4>
 
 Desenvolvi esse pequeno projeto em java script, para ter um crescimento continuo na linguagem e sempre melhorar forma de programar uma aplicação web, com isso aplicação se basea de informar quantos anos você tem de acordo com sua data de nascimento e mostrar
